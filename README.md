@@ -1,2 +1,3 @@
 # Progressive-Web-App_Topic4
-Thiết kế và xây dựng phần mềm
+Ứng dụng học từ vựng / khái niệm
+BTL môn Thiết kế và xây dựng phần mềm
