@@ -65754,6 +65754,10 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 __webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
+/**
+ * This is the file used to refer to component (React Page) inside the components folder
+ */
+// require('./components/Vocab');
 
 /***/ }),
 
@@ -65860,8 +65864,8 @@ if (document.getElementById('example')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! F:\DevZone\GitHub-repo\Progressive-Web-App_Topic4\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! F:\DevZone\GitHub-repo\Progressive-Web-App_Topic4\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! F:\DevZone\Projects\Progressive-Web-App_Topic4\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! F:\DevZone\Projects\Progressive-Web-App_Topic4\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

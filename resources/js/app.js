@@ -13,3 +13,10 @@ require('./bootstrap');
  */
 
 require('./components/Example');
+
+/**
+ * This is the file used to refer to component (React Page) inside the components folder
+ */
+
+// require('./components/Vocab');
+
