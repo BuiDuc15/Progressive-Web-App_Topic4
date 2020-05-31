@@ -16,6 +16,9 @@ class CreateVocabsTable extends Migration
         Schema::create('vocabs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('type');
+            $table->string('extra');
+            $table->string('meaning');
             $table->string('pronunciation');
             $table->text('description');
             $table->text('example');

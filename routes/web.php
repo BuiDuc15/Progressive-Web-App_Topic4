@@ -25,6 +25,6 @@ Route::get('/example', function () {
     return view('welcome');
 });
 
-Route::get('/tuvung/index.html', function () {
-   return view('index');
-});
+//Route::get('/tuvung/house.blade.php', function () {
+//   return view('index');
+//});

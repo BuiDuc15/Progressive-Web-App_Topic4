@@ -1,24 +1,24 @@
 <?php
 
-namespace App\Http\Controllers\API;
+namespace App\Http\Controllers;
 
-use App\vocab; // Use the vocab.php Model (MVC)
-use App\Http\Controllers\Controller;
+use App\vocab;
+use App\vocabset;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
-class VocabController extends Controller
+class VocabSetController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     // * @return \Illuminate\Http\Response
      * @return \Illuminate\Http\JsonResponse
      */
     public function index()
     {
-        //
-        $vocab = Vocab::all();
-        return response()->json($vocab); // Output JSON to frontend
+        // Return everything from vocabset DB to view
+        $vocabSet = vocabset::all();
+        return response()->json($vocabSet); // Output JSON to frontend
     }
 
     /**
