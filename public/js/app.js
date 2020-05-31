@@ -65754,10 +65754,6 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 __webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
-/**
- * This is the file used to refer to component (React Page) inside the components folder
- */
-// require('./components/Vocab');
 
 /***/ }),
 
