@@ -11,7 +11,7 @@ class CreateVocabsTable extends Migration
      *
      * @return void
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('vocabs', function (Blueprint $table) {
             $table->increments('id');

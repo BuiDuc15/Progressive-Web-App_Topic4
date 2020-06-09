@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
-use App\vocab;
-use App\vocabset;
+use App\set;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-class VocabSetController extends Controller
+class SetController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +15,8 @@ class VocabSetController extends Controller
      */
     public function index()
     {
-        // Return everything from vocabset DB to view
-        $vocabSet = vocabset::all();
-        return response()->json($vocabSet); // Output JSON to frontend
+        // Show all Set table
+        return response()->json(set::all());
     }
 
     /**

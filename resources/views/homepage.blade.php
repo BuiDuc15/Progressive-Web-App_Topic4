@@ -24,7 +24,7 @@
                 <a href="{{ route('login') }}">Login</a>
 
                 @if (Route::has('register'))
-                    <a href="{{ route('register') }}">Register</a>
+                    <a href="{{ route('register') }}">Rmegister</a>
                 @endif
             @endauth
         </div>
@@ -34,10 +34,10 @@
         <div class="title m-b-md">
             Vocab Test System
         </div>
-        <p>F-ing Balls</p>
+        <p>Begin Testing links</p>
 
         <div class="links">
-            Insert links here
+            <a href="/example">Welcome</a>
         </div>
     </div>
 </div>
