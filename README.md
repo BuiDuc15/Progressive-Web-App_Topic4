@@ -1,24 +1,51 @@
-# Progressive Web App - Topic 4
+Here's the original task description on Upwork:
 
-## Ứng dụng học từ vựng / khái niệm
+![Laravel students registration](https://laraveldaily.com/wp-content/uploads/2019/11/Screen_Shot_2019-10-27_at_3.37.19_PM.png)
 
-BTL môn Thiết kế và xây dựng phần mềm
+---
 
-### Overview
+We implemented the task with the help of our [QuickAdminPanel](https://quickadminpanel.com) and front-end theme called [Etrain](https://colorlib.com/wp/template/etrain/) by [Colorlib](https://colorlib.com)
 
-Danh mục | Nội dung
--------- | --------
-Phân công công việc | Tạm thời 4 thành viên cùng thảo luận và làm chung phần usecase
-Đặc tả phụ trợ | <https://docs.google.com/document/d/11-li74Dyh-xOsE9u7tyl9Vc-Ool-JW05CfLDo61DV5Y/edit>
-Từ điển thuật ngữ | <https://docs.google.com/document/d/18xsbNffjStKUPdfoPkUiaSQmIIrJNiVhWKucR6lyR08/edit>
+---
 
-[Danh sách công việc](dscv.md)
+![Laravel students courses list](https://laraveldaily.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-05-at-9.46.36-AM.png)
 
-- [x] Các chức năng quản lý người dùng: đăng nhập, đăng ký, đổi mật khẩu, quên mật khẩu...
-- [x] Tạo (tập hợp) học từ vựng/khái niệm (có thể đính kèm hình ảnh minh họa): mỗi từ sẽ có 1 định nghĩa + một số context + 1 số hình ảnh
-- [ ] Có thể chia sẻ các sets học, có thể tìm kiếm sets học của người khác
-- [ ] Các chức năng ôn tập: nhiều dạng bài ôn tập (trắc nghiệm, tự luận, nối từ...) với khả năng đánh giá tiến độ học (ví dụ: từ nào trả lời đúng nhiều lần rồi thì sẽ không hỏi lại nữa, từ nào hay trả lời sai sẽ xuất hiện lại nhiều lần...)
-- [ ] Các chức năng kiểm tra: kiểm tra dạng truyền thống (trắc nghiệm + tự luận), kiểm tra kết hợp chơi trò chơi
-- [ ] Chức năng tạo lớp học (optional): nhóm các sets học vào một lớp, có thể invite người khác hoặc share link cho người khác tự join vào
-- [x] Chức năng tạo folder để nhóm các sets học tập: gần giống chức năng tạo lớp học nhưng chỉ có cá nhân sử dụng được
-- Công nghệ dự kiến sử dụng: ReactJS + Laravel
+![Laravel students registration form](https://laraveldaily.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-05-at-9.48.27-AM.png)
+
+![Laravel students adminpanel](https://laraveldaily.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-05-at-9.47.36-AM.png)
+
+---
+
+## Database Schema
+
+Created with [MySQL Workbench](https://www.mysql.com/products/workbench/) - see [video how to do it](https://www.youtube.com/watch?v=RbKEYDtkAJI)
+
+![Laravel students DB schema](https://laraveldaily.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-05-at-10.07.17-AM.png)
+
+---
+
+## How to use
+
+- Clone the repository with __git clone__
+- Copy __.env.example__ file to __.env__ and edit database credentials there
+- Run __composer install__
+- Run __php artisan key:generate__
+- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
+- That's it: launch the main URL. 
+- You can login to adminpanel by going go `/login` URL and login with credentials __admin@admin.com__ - __password__ or institution user __institution@institution.com__ - __password__ 
+
+---
+
+## License
+
+Basically, feel free to use and re-use any way you want.
+
+---
+
+## More from our LaravelDaily Team
+
+- Check out our adminpanel generator [QuickAdminPanel](https://quickadminpanel.com)
+- Read our [Blog with Laravel Tutorials](https://laraveldaily.com)
+- FREE E-book: [50 Laravel Quick Tips (and counting)](https://laraveldaily.com/free-e-book-40-laravel-quick-tips-and-counting/)
+- Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
+- Enroll in our [Laravel Online Courses](https://laraveldaily.teachable.com/)
