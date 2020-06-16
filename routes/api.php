@@ -18,5 +18,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Route to vocab controller
-Route::resource('vocab', 'API\VocabController');
+// Api Endpoints for Example.js Component
+// Delete record using get
+// Create record using post
+// Update record using put, use task/{id} to determined which record to update
+
+Route::get('words', 'Api\WordController@index'); // (where: 'url', do: 'Controller@function')
+Route::post('word' , 'Api\WordController@store');
+Route::put('word/{id}', 'Api\WordController@update');
+Route::delete('word/{id}', 'Api\WordController@delete');

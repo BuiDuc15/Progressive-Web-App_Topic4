@@ -13,3 +13,4 @@ Phân công công việc | Tạm thời 4 thành viên cùng thảo luận 
 Từ điển thuật ngữ | <https://docs.google.com/document/d/18xsbNffjStKUPdfoPkUiaSQmIIrJNiVhWKucR6lyR08/edit>
 
 [Danh sách công việc](dscv.md)
+
